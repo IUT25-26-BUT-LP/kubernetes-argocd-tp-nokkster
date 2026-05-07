@@ -13,8 +13,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: 10.6.0.190:80/proxy/nginx:latest
-        ports:
-        - containerPort: 80
-
+        - name: nginx
+          image: 10.6.0.190:80/bohdan-devsecops/nginx-gitops-demo:latest
+          ports:
+            - containerPort: 80
