@@ -13,7 +13,7 @@ env:
 
 jobs:
   build-scan-push:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Récupérer le code
